@@ -8,7 +8,7 @@ Supports images, audio and video embeddings, and Leaflet TileLayer/geojson overl
 
 ## Live links (replace with your own)
 - Leaflet Map https://albxluu.github.io/Dublinmapclass/#1
-- Google Sheets template https://docs.google.com/spreadsheets/d/1fbvwGXvhGDpdGKega96xJRfgMIDwaWglDBJge_lp1bo/edit#gid=1762307287
+- Google Sheets template https://docs.google.com/spreadsheets/d/1fbvwGXvhGDpdGKega96xJRfgMIDwaWglDBJge_lp1bo/edit?usp=sharing
 
 ## Create Your Own
 - See step-by-step tutorial in *Hands-On Data Visualization* https://HandsOnDataViz.org/leaflet-storymaps-with-google-sheets.html
