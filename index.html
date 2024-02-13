@@ -36,7 +36,7 @@
 
 <body>
   <div id="map-title"> Best Flower Shops in Miami </div>
-    <div id="logo"></div>
+    <div id="logo"> BEST FLOWER SHOPS</div>
     <div id="header">Best Flowershops in Miami </div>
   
 
@@ -57,6 +57,7 @@
       scrollWheelZoom: false,
       zoomControl: false,
       tap: false
+        
        L.tileLayer(
    'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
      attribution: '&copy; <a href="https://osm.org/copyright">\
@@ -66,9 +67,23 @@
     
     L.marker([25.80222525341529, -80.19129914540804]).addTo(map) // EDIT marker coordinates
 .bindPopup("Zoom Bloomz"); // EDIT pop-up text message
-  
-    });
     
+    L.marker([25.84218317231752, -80.184655947261]).addTo(map) // EDIT marker coordinates
+.bindPopup("Twigs and Dasies"); // EDIT pop-up text message
+
+        L.marker([25.798624424195644, -80.18869447424431]).addTo(map) // EDIT marker coordinates
+.bindPopup("Kiss My Bloom"); // EDIT pop-up text message
+    
+    L.marker([25.743024293720026, -80.41544467424558]).addTo(map) // EDIT marker coordinates
+.bindPopup("Big Time Flowers"); // EDIT pop-up text message
+
+        L.marker([25.805594084383326, -80.18911847424418]).addTo(map) // EDIT marker coordinates
+.bindPopup("Pop Heart Studio"); // EDIT pop-up text message
+    
+
+    });
+
+  
   </script>
   
 
