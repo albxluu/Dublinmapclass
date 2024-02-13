@@ -37,7 +37,7 @@
 <body>
   <div id="map-title"> Best Flower Shops in Miami </div>
     <div id="logo"></div>
-    <div id="header"></div>
+    <div id="header">Best Flowershops in Miami </div>
   
 
   <div id="narration">
@@ -52,14 +52,21 @@
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
     var map = L.map('map', {
-      center: [0, 0],
-      zoom: 1,
+      center: [25.802186616645194, -80.19130987424431],
+      zoom: 5,
       scrollWheelZoom: false,
       zoomControl: false,
       tap: false
     });
   </script>
-
+  
+ L.tileLayer(
+   'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+     attribution: '&copy; <a href="https://osm.org/copyright">\
+      OpenStreetMap</a> contributors, &copy;\
+        <a href="https://carto.com/attribution">CARTO</a>'
+ }).addTo(map);
+  
   <script type="text/javascript" src="google-doc-url.js"></script>
   <script type="text/javascript" src="markers/leaflet.extra-markers.min.js"></script>
   <script type="text/javascript" src="scripts/constants.js"></script>
