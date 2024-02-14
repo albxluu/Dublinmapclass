@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
   <link rel="icon" type="image/png" href="./favicon.png">
-  <title>Best Flower Shops in Miami </title>
+  <title>Leaflet Storymaps with Google Sheets Template</title>
 
   <!-- Load Leaflet CSS and JS-->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
@@ -35,10 +35,11 @@
 </head>
 
 <body>
-  <div id="map-title"> Best Flower Shops in Miami </div>
-    <div id="logo"> BEST FLOWER SHOPS</div>
-    <div id="header">Best Flowershops in Miami </div>
-  
+
+  <div id="title">
+    <div id="logo"></div>
+    <div id="header"></div>
+  </div>
 
   <div id="narration">
     <div id="contents">
@@ -52,42 +53,14 @@
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
     var map = L.map('map', {
-      center: [25.802186616645194, -80.19130987424431],
-      zoom: 5,
+      center: [0, 0],
+      zoom: 1,
       scrollWheelZoom: false,
       zoomControl: false,
       tap: false
-        
-       L.tileLayer(
-   'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-     attribution: '&copy; <a href="https://osm.org/copyright">\
-      OpenStreetMap</a> contributors, &copy;\
-        <a href="https://carto.com/attribution">CARTO</a>'
-       }).addTo(map);
-    
-    L.marker([25.80222525341529, -80.19129914540804]).addTo(map) // EDIT marker coordinates
-.bindPopup("Zoom Bloomz"); // EDIT pop-up text message
-    
-    L.marker([25.84218317231752, -80.184655947261]).addTo(map) // EDIT marker coordinates
-.bindPopup("Twigs and Dasies"); // EDIT pop-up text message
-
-        L.marker([25.798624424195644, -80.18869447424431]).addTo(map) // EDIT marker coordinates
-.bindPopup("Kiss My Bloom"); // EDIT pop-up text message
-    
-    L.marker([25.743024293720026, -80.41544467424558]).addTo(map) // EDIT marker coordinates
-.bindPopup("Big Time Flowers"); // EDIT pop-up text message
-
-        L.marker([25.805594084383326, -80.18911847424418]).addTo(map) // EDIT marker coordinates
-.bindPopup("Pop Heart Studio"); // EDIT pop-up text message
-    
-
     });
-
-  
   </script>
-  
 
- 
   <script type="text/javascript" src="google-doc-url.js"></script>
   <script type="text/javascript" src="markers/leaflet.extra-markers.min.js"></script>
   <script type="text/javascript" src="scripts/constants.js"></script>
