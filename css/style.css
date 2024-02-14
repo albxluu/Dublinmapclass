@@ -127,6 +127,7 @@ a.source:visited {
 
 .out-focus {
   opacity: 0.3;
+  background: var(--melon);
 }
 
 .leaflet-control-attribution {
