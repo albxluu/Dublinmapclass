@@ -1,16 +1,8 @@
-// <uniquifier>: Use a uniquifier for the class name
-// <weight>: Use a value from 300 to 700
 
-.quicksand-<uniquifier> {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 body {
   padding: 0px;
   margin: 0px;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Quicksand", sans-serif;
   overflow: hidden;
 }
 
