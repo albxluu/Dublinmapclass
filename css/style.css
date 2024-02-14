@@ -1,5 +1,6 @@
 :root {
   --melon: #F0B5B3;
+  --mediumpink: #F6839C;
 }
 body {
   padding: 0px;
@@ -123,6 +124,7 @@ a.source:visited {
 
 .in-focus {
   opacity: 1.0;
+  background: var(--mediumpink);
 }
 
 .out-focus {
