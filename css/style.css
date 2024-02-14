@@ -1,6 +1,8 @@
 :root {
   --melon: #F0B5B3;
   --mediumpink: #F6839C;
+  --brightpink: #FE64A3;
+  --green: #9EBD6E;
 }
 body {
   padding: 0px;
@@ -51,8 +53,8 @@ body {
 #title {
   position: absolute;
   left: 0;
-  top: 203px;
-  background-color: var(--melon);
+  top: 263px;
+  background-color: var(--green);
   width: 100vw;
   z-index: 100;
   margin: 0;
