@@ -1,4 +1,6 @@
-
+:root {
+  --melon: #F0B5B3;
+}
 body {
   padding: 0px;
   margin: 0px;
