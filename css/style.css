@@ -53,7 +53,7 @@ body {
 #title {
   position: absolute;
   left: 0;
-  top: 263px;
+  top: 363px;
   background-color: var(--green);
   width: 100vw;
   z-index: 100;
@@ -62,7 +62,7 @@ body {
   visibility: hidden;
   font-weight: bold;
   text-align: center;
-  font-size: 100px
+  font-size: 70px
 }
 
 .chapter-container {
