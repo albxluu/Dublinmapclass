@@ -184,12 +184,4 @@ h2 {
   font-size: 1.1em;
   font-weight: normal;
 }
-div {
-  background-color: var(--melon);
-  padding: 5%;
-  padding-left: 20%;
-  text-align: center;
-  border: 1em solid tomato;
-  margin: 8%;
-    
-}
+
