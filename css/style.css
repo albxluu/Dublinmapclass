@@ -53,12 +53,12 @@ body {
 #title {
   position: absolute;
   left: 0;
-  top: 363px;
+  top: 163px;
   background-color: var(--green);
   width: 100vw;
   z-index: 100;
   margin: 0;
-  padding: 5%;
+  padding: 3%;
   visibility: hidden;
   font-weight: bold;
   text-align: center;
