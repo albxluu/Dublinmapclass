@@ -30,6 +30,7 @@ body {
 }
 
 #contents {
+  background-color: var(--melon);
   padding: 0;
   width: 100%;
   margin-top: 0; /*Adjust if Title header needs more space */
