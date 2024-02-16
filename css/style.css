@@ -129,7 +129,7 @@ a.source:visited {
 
 .in-focus {
   opacity: 1.0;
-  background: var(--mediumpink);
+  background-color: var(--mediumpink) !important;
 }
 
 .out-focus {
