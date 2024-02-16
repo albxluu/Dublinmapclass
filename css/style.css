@@ -9,6 +9,7 @@ body {
   margin: 0px;
   font-family: "Quicksand", sans-serif;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 #map {
